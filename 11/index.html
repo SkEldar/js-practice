@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    </style>
+</head>
+<body>
+    <input type="text" id="login" placeholder="Введите логин">
+    <input type="password" id="pass" placeholder="Введите пароль">
+    <button id="check">Check</button>
+    <script>
+    document.getElementById('check').onclick = function() {
+        let login = document.getElementById('login').value;
+        let pass = document.getElementById('pass').value;
+        if(login == 'ivan' && pass == '334455') {
+            alert("Добро пожаловать")
+        }
+        else if (login == 'alex' && pass == '777') {
+            alert("Добро пожаловать")
+        }
+        else if(login == 'petr' && pass == 'b5678') {
+            alert("Добро пожаловать")
+        } else {
+            alert("incorrect password or login");
+        }
+    };
+    </script>
+</body>
+</html>
