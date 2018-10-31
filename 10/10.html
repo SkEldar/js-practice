@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <input type="text" id="num">
+    <p id="age"></p>
+    <p id="entry"></p>
+    <button id="check">Проверить</button>
+    <script>
+    document.getElementById('check').onclick = function() {
+        let inp = document.getElementById('num').value;
+        let age = document.getElementById('age');
+        let entry = document.getElementById('entry');
+       let result = 2018 - inp; 
+       age.innerHTML = result;
+       if(result >= 16) {
+           entry.innerHTML = 'Добро пожаловать';
+       } else {
+           entry.innerHTML = "Вход запрещен";
+       };
+    };
+    </script>
+</body>
+</html>
