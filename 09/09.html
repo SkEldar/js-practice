@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button id="Check">Call</button>
+    <script>
+   document.getElementById('Check').onclick = function() {
+            let inp = document.getElementById('inp').value;
+            inp = parseInt(inp);
+            if(inp >= 1 && inp <= 20) {
+                alert('first');
+            } else if(inp >=21 && inp <= 48) {
+                alert('second');
+            } else if(inp >= 49 && inp == 90) {
+                alert('third');
+            } else {
+                alert('eror!');
+            };
+    };
+    </script>
+</body>
+</html>
