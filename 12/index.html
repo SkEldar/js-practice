@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <input type="text" id="nad">
+    <button id="but">Check</button>
+    <script>
+    document.getElementById('but').onclick = function() {
+      let nad = document.getElementById('nad').value;
+      nad = parseInt(nad);
+        if(nad == 0 || nad <= 3) {
+            alert('0%');
+        } else if (nad >= 3 || nad <= 10) {
+            alert('10%');
+        } else if (nad >= 10 || nad <= 20) {
+            alert('20%');
+        } else {
+            alert('eror');
+        };
+    };
+    </script>
+</body>
+</html>
