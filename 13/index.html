@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<a href="#">First</a>
+	<a href="#">Second</a>
+	<a href="https://google.com">Third</a>
+	<a href="https://google.com">Four</a>
+	<script>
+		const a = document.getElementsByTagName('a');
+
+		for(var i = 0; i < a.length; i++) {
+			if(a[i].getAttribute('href') == '#') {
+				a[i].style.color = 'red';
+			};
+		};
+	</script>
+</body>
+</html>
