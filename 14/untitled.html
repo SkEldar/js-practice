@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>W</title>
+</head>
+<body>
+	<p id="out"></p>
+	<script>
+		const out = document.getElementById('out');
+		let tmp = '';
+		//1
+		for(var i = 4; i < 401;i++) {
+		 	tmp = tmp + i + ' ';
+		 };
+		//2
+		 for(var x = 4; x < 14; x+=3){
+		 	tmp = tmp + x + ' ';
+		 };
+		//3
+		 for(var g = 654; g > 0; g--) {
+		 	tmp = tmp + g + ' ';
+		 };
+		//4
+ for(var a = 1983; a < 2018; a++) {
+		 	tmp = tmp + a + ' ';		}
+		//5
+		 for(var l = -4; l < 100; l+=2){
+		 	tmp = tmp + l + ' ';		};
+		//6
+		  for(var q = 0; q < 9; q++) {
+		  	tmp = tmp + 7 * q + ' ';
+		  }
+		 //7
+		 for(var e = 1000; e < 2000; e++) {
+		 	tmp = tmp + '&#' + e + ' ';
+		 }
+
+
+
+
+		out.innerHTML = tmp;
+	</script>
+</body>
+</html>
