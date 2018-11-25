@@ -1,0 +1,21 @@
+body {
+    background:url("https://wallpapertag.com/wallpaper/full/0/6/3/49612-mountains-wallpaper-1920x1080-for-android-40.jpg")no-repeat;
+    width:100%;
+    height: 100vh;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show {
+    width: 225px;
+    height: 110;
+    background:#c5c0bc;
+    border:4px solid #9c816f;
+    border-radius:5%;
+    color:#fff;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+
+}
