@@ -1,10 +1,7 @@
 function post() {
     let text = document.getElementById('wr').value;
     var div = document.createElement('div');
-    // var hr = document.createElement('hr');
       div.className = "wr";
-    
-    //   hr.className = 'hr'
       div.appendChild(document.createTextNode(text));
       if (text.length === 0) {
         alert("write text");
@@ -12,6 +9,16 @@ function post() {
         document.body.appendChild(div);
       }
       document.getElementById('wr').reset();
-    
-    //   document.body.appendChild(hr);
         };
+        function SendPost() {
+jQuery.ajax({    
+type: "GET", 
+url: "http://localhost:8888/tweet", 
+data: jQuery("#form").serialize(), 
+success: function(html) {
+jQuery("body").empty();
+}
+
+});
+
+}
