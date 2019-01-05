@@ -5,8 +5,9 @@ var result = {};
 for(var x = 2; x < process.argv.length;x++) {
           urls.push(process.argv[x]);
 };
-    var res = "";
+
 function check(url,callback) {
+  var res = "";
     http.get(url,function(response){
           response.setEncoding('utf-8');
           response.on("data",function(data){
@@ -14,20 +15,15 @@ function check(url,callback) {
             res += data;
           });
             response.on("end",function(){
-                console.log(1);
+                console.log(res);
                 callback();
             });
         });
     };
-    check(res,function(){
-          function last(urls[3],function(){
-                        
-          });
+    check(urls[0],function(){
+            check(urls[1],function(){
+                check(urls[2],function(){
+                        //end
+                });
+            });
     });
-    foo("hello", function() {
-     foo("1", function() {
-      foo("2", function() {
-       //more stuff
-      });
-     }
-    )})
