@@ -12,6 +12,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mongodb": "^2.2.33",
+    "pug": "^2.0.3",
     "through2-map": "^3.0.0"
   }
 }

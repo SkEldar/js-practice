@@ -9,7 +9,7 @@ var server = net.createServer(function(socket){
   day = '0' + date.getDate();
   hours = date.getHours();
   minutes = date.getMinutes();
-    var answer = year + '-' + 0 + month + '-' + day + ' '+  hours + ':' + minutes + '\n';
+    var answer = year + '-' + 0 + month + '-' + day + ' '+ 0 +  hours + ':'+ 0 +  minutes + '\n';
         socket.end(answer);
         //"2019-01-05 22:27"
 });
