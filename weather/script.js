@@ -10,5 +10,5 @@ $(document).ready(function() {
     }
   );
 });
-var check = document.getElementById('check');
+
 
