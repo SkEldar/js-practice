@@ -1,4 +1,5 @@
 var express = require('express');
+const cors = require('cors');
     app = express();
     obj = {
         "obj1" : { title: 'Express.js Guide',
@@ -14,7 +15,8 @@ var express = require('express');
     // data = JSON.parse(data);
     // res.json(data);
 
-app.get('/',function(req,res){
+app.get('/books',cors(),function(req,res){
+    // obj = JSON.parse(obj);
      res.json(obj);
 });
 
