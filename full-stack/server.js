@@ -24,13 +24,8 @@ mongo.connect('mongodb://localhost:27017/books',cors(),function(err,db){
 app.get('/books',cors(),function(req,res){
         globalDB.collection('books').find().toArray(function(err,docs){
             if(err) return console.log(err);
-             var obj1 = docs[0].obj1;
-             var obj2 = docs[0].obj2;
-             var obj3 = docs[0].obj3;
-            //  console.log(obj1)
-            for(var i = 0; i < 3; i++) {
-                res.json(obj[i]);
-            };
+            
+            res.json(docs);
                 });
 });
 
