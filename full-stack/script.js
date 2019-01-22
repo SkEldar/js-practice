@@ -7,12 +7,19 @@ $(document).ready(function(){
          for(var i = 1; i < obj.length;i++) {
                 var p = document.createElement('p');
                 p.innerHTML = obj[i].title;
-                document.body.appendChild(p)
+                document.body.appendChild(p);
+                p.innerHTML = obj[i].url;
+
+            // console.log(obj[i].url);
          };
-        //  for(var x = 1; x < obj.length;x++) {
-        //     var z = document.createElement('p');
-        //     // z.innerHTML = obj[i].tags[i];
-        //     // document.body.appendChild(z);
+
         }
     )
 });
+var arr = [
+    'a','b','c'
+];
+if(arr == 'a','c') {
+
+};
+console.log(arr)
