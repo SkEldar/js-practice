@@ -19,7 +19,5 @@ $(document).ready(function(){
 var arr = [
     'a','b','c'
 ];
-if(arr == 'a','c') {
-
-};
+    arr.pop['b'];
 console.log(arr)
