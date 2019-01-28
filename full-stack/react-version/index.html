@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="content"></div>
+    <script type="text/babel">
+            var info = [
+                {
+                    id : 1, 
+                    title : 'Express.js Guide ',
+                    url : 'http://expressjsguide.com ',
+                    tags : 'node.js express.js ' 
+                },
+                {
+                    id : 2,
+                    title : 'Rapid Prototyping with JS ',
+                    url : 'http://rpjs.co ',
+                    tags :  'backbone.js node.js mongodb '
+                },
+                {
+                    id : 3,
+                    title : 'JavaScript: The Good Parts ',
+                    tags : 'javascript '
+                }
+            ];
+                    var OneInfo = React.createClass({
+                            render:function() {
+                                    return <li>
+                                        {this.props.title}
+                                        {this.props.url}
+                                        {this.props.tags}
+                                        </li>
+                            }
+                    });
+    var AllInfo = React.createClass({
+            render:function() {
+                    return (
+                        <div>
+                            <ul>
+                                {
+                                    info.map(function(el){
+                                            return <OneInfo key={el.id} title={el.title} url={el.url} tags={el.tags}/>
+                                    }) 
+                                }
+                                </ul>
+                            </div>
+                    );
+            }
+    });
+        ReactDOM.render(
+            <AllInfo />,
+            document.getElementById('content')
+        )
+        
+        
+    </script>
+</body>
+</html>
