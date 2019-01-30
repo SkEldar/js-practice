@@ -1,7 +1,18 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 const token = '746686179:AAEql6wULWLI8W-zOv09KSRFLZGPqSe1cfg';
-let photo1 = '/Users/eldarsalakhutdinov/Desktop/cover_6.jpg'
+let photo1 = '/Users/eldarsalakhutdinov/Desktop/cover_6.jpg';
+let memes = [
+  '/Users/eldarsalakhutdinov/Desktop/mem1.jpg',
+  '/Users/eldarsalakhutdinov/Desktop/mem2.jpg',
+  '/Users/eldarsalakhutdinov/Desktop/mem.jpg',
+  '/Users/eldarsalakhutdinov/Desktop/pepe.jpg',
+  '/Users/eldarsalakhutdinov/Desktop/penek.jpg'
+];
+// var randomMem = memes[Math.floor(Math.random() * memes.length)];
+function getRandomMem() {
+      return memes[Math.floor(Math.random() * memes.length)];
+};
 
 const bot = new TelegramBot(token, {polling: true});
   function isEmoji(string) {
@@ -20,15 +31,20 @@ bot.on('message',msg => {
   const chatId = msg.chat.id;
   var messageText = msg.text;
   if(messageText === '//старт') {
-      bot.sendMessage(chatId,'начнем,вообщем присылаешь мне смайлик,а я дам тебе мем)')
-      bot.sendPhoto(chatId,photo1,{caption : 'first'})
+      bot.sendMessage(chatId,'начнем,вообщем присылаешь мне смайлик,а я дам тебе мем)ПРЕДУПРЕЖДЕНИЕ ЕСТЬ БОЯНЫ')
+      bot.sendPhoto(chatId,photo1,{caption : 'начинаем'})
   }
 });
 
 bot.on('message',msg => {
   const chatId = msg.chat.id;
-  let messageText = msg.text; 
+  let messageText = msg.text;
+  let verifyEmoji = isEmoji(messageText);
   if(messageText !== '//старт' && messageText !== '/start') {
-  bot.sendMessage(chatId,isEmoji(messageText));
+    if(verifyEmoji !== true) {
+  bot.sendMessage(chatId,'не не только смайлик(любой)');
+    } else {
+      bot.sendPhoto(chatId,getRandomMem(),{caption : 'мемы полетели)'});
+    }
 };
 });
