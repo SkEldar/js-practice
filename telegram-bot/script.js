@@ -1,13 +1,13 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 const token = '746686179:AAEql6wULWLI8W-zOv09KSRFLZGPqSe1cfg';
-let photo1 = '/Users/eldarsalakhutdinov/Desktop/cover_6.jpg';
+let photo1 = './memes/cover_6.jpg';
 let memes = [
-  '/Users/eldarsalakhutdinov/Desktop/mem1.jpg',
-  '/Users/eldarsalakhutdinov/Desktop/mem2.jpg',
-  '/Users/eldarsalakhutdinov/Desktop/mem.jpg',
-  '/Users/eldarsalakhutdinov/Desktop/pepe.jpg',
-  '/Users/eldarsalakhutdinov/Desktop/penek.jpg'
+  './memes/mem1.jpg',
+  './memes/mem2.jpg',
+  './memes/mem.jpg',
+  './memes/pepe.jpg',
+  './memes/penek.jpg'
 ];
 // var randomMem = memes[Math.floor(Math.random() * memes.length)];
 function getRandomMem() {
