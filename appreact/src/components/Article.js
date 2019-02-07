@@ -16,7 +16,7 @@ class Article extends Component {
 
     const body = this.state.isOpen && <section className="card-text">{article.text}</section>
     return (
-        <div className="card">
+        <div className="card mx-auto" style={{width : '50%'}}>
         <div className="card-header">
             <h2>{article.title}
             <button className="btn btn-primary btn-lg float-right" onClick={this.handleClick}>
@@ -24,7 +24,7 @@ class Article extends Component {
             </button>
             </h2>
             </div>
-            <div className="text-body">
+            <div className="card-body">
             {body}
             <h6 className="card-subtitle text-muted">creation date : {(new Date(article.date)).toDateString()}</h6>
             </div>
