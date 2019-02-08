@@ -7,6 +7,7 @@ class App extends Component {
 state = {
     reverted : false
 }
+
     render() {
     return (
         <div className="container">
@@ -14,7 +15,7 @@ state = {
             <h1>App name</h1>
             <button className="btn" onCick={this.revert}>Revert</button>
             </div>
-            <ArticleList articles = {articles}/>
+            <ArticleList articles = {this.state.reverted ? articles.reverse() : articles}/>
         </div>
     )
     }
