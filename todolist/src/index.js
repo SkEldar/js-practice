@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      info: ['f','b','c'],
+      info: [],
       currentInput: ""
     };
   }
@@ -19,6 +19,7 @@ class App extends Component {
     let info = this.state.info;
     info.push(this.state.currentInput);
     this.setState({ info });
+    this.setState({currentInput : ""});
   };
 
   render() {
