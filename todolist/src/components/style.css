@@ -1,4 +1,12 @@
 .parent {
-    display: flex;  
+    display: flex;
     flex-direction: row;
-}
+    margin: 10px;
+    line-height: 10px;
+  }
+  
+  .delete-button {
+  height: 5px;
+  margin-top: 13px;
+  margin-right:10px;
+  }

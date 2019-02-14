@@ -5,8 +5,8 @@ class ToDoItem extends Component {
     render() {
             return (
                 <div className='parent'>
-                    <p>Wo</p>
-                    <button>Delete</button>
+                    <p style={{marginRight:'10px'}}>Wo</p>
+                    <button className='delete-button'>Delete</button>
                 </div>
             )
     }
