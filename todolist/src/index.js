@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-
+import ToDoItem from './components/toDoItem'
 
 class App extends Component {
   constructor(props) {
@@ -41,7 +41,7 @@ class App extends Component {
         {this.state.info.map(function(thing){
          return <div key={thing}>{thing} </div>
         })} 
-
+            <ToDoItem />
       </div>
     );
   }
