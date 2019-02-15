@@ -1,11 +1,12 @@
 import React,{Component} from 'react';
 import './style.css'
 
+
 class ToDoItem extends Component {
     render() {
             return (
                 <div className='parent'>
-                    <p style={{marginRight:'10px'}}>Wo</p>
+                    <p style={{marginRight:'10px'}}></p>
                     <button className='delete-button'>Delete</button>
                 </div>
             )
