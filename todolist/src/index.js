@@ -22,6 +22,11 @@ class App extends Component {
     this.setState({currentInput : ""});
   };
 
+  deleteItem = () => {
+
+
+};
+
   render() {
     //   var toDoList = this.state;
     // var toDoThings = toDoList.map(function(info) {
@@ -39,9 +44,8 @@ class App extends Component {
         <button onClick={this.addToState}> Add To List </button>
        
         {this.state.info.map(function(thing){
-         return <div key={thing}>{thing} </div>
-        })} 
-            <ToDoItem />
+         return <ToDoItem key={thing} data={thing} onClick={()=>{deleteItem(data)}}/>
+        })}
       </div>
     );
   }
