@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import ToDoItem from './components/toDoItem'
+import { string } from 'postcss-selector-parser';
 
 class App extends Component {
   constructor(props) {
@@ -22,9 +23,14 @@ class App extends Component {
     this.setState({currentInput : ""});
   };
 
-  deleteItem = () => {
-
-
+  deleteItem = (item) => {
+        var array = this.state.info;
+      var indexOfItem = array.indexOf(item);
+      if(indexOfItem === -1) {
+        return alert('error')
+    } else{
+      array.splice(indexOfItem,1);
+    }
 };
 
   render() {
@@ -44,7 +50,7 @@ class App extends Component {
         <button onClick={this.addToState}> Add To List </button>
        
         {this.state.info.map(function(thing){
-         return <ToDoItem key={thing} data={thing} onClick={()=>{deleteItem(data)}}/>
+         return <ToDoItem key={thing} thing={this.props.data} />
         })}
       </div>
     );
@@ -53,5 +59,3 @@ class App extends Component {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
-
-
