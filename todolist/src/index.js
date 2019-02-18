@@ -34,11 +34,9 @@ class App extends Component {
 };
 
   render() {
-    //   var toDoList = this.state;
-    // var toDoThings = toDoList.map(function(info) {
-    //     return  info;   
-    // });
+  
     console.log(this.state.currentInput);
+
     return (
       <div>
         <h1>Write thing that you need to do</h1>
@@ -50,7 +48,7 @@ class App extends Component {
         <button onClick={this.addToState}> Add To List </button>
        
         {this.state.info.map(function(thing){
-         return <ToDoItem key={thing} thing={this.props.data} />
+                  return <ToDoItem key={thing} />
         })}
       </div>
     );
@@ -59,3 +57,4 @@ class App extends Component {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+//https://codesandbox.io/s/93w896m6op
