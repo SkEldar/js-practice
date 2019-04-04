@@ -1,0 +1,24 @@
+.tweet{
+    width: 600px;
+    height: 150px;
+    background-color: #e8f5fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 510px;
+    height:80px;
+    background-color:#ffffff;
+    border:2px solid #a4d8f9;
+    border-radius:10px;
+    padding-left:6px;
+}
+.tweet-button{
+    width: 75px;
+    height:35px;
+    background-color:#b3e0f9;
+    color:#fff;
+    border-radius:10px;
+    border-color:#b3e0f9;
+}

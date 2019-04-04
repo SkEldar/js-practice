@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 import {render} from 'react-dom';
+import '../src/style.css';
+
 
 class Tweet extends Component{
     constructor(props){
@@ -10,8 +12,10 @@ class Tweet extends Component{
     }
         render(){
             return(
-            <div>
-                <button>ok</button>
+            <div className="tweet"> 
+            <input className="text" placeholder="What’s happening?"></input>
+            
+            <button className="tweet-button">Tweet</button>
             </div>
             )
         }
