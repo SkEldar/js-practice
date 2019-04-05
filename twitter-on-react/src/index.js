@@ -13,6 +13,7 @@ class Tweet extends Component{
         render(){
             return(
             <div className="tweet"> 
+            <img src={require('./img/unnamed.jpg')} alt={'user-icon'} id={'user-icon'}/>
             <input className="text" placeholder="What’s happening?"></input>
             
             <button className="tweet-button">Tweet</button>
