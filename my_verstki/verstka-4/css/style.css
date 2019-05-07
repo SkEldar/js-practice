@@ -6,7 +6,7 @@ body {
   background: #fff;
 }
 .menu {
-  height: 100vh;
+  height: auto;
   width: 120px;
   background: blue;
   display: flex;
@@ -22,10 +22,10 @@ body {
 .exit {
   padding-top: 225px;
 }
-.guestions {
-  margin: 15px 25px;
-  height: 100vh;
-}
-.question {
-  border: 2px solid grey;
+.questions {
+  background-color: red;
+  width: 1170px;
+  height: 1170px;
+  margin: 0 170px;
+  position: absolute;
 }
