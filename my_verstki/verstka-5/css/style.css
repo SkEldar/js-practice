@@ -1,0 +1,81 @@
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+}
+div,
+p,
+a,
+span {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: #fdcd3a;
+  padding-top: 53px;
+  padding-bottom: 311px;
+}
+.logo {
+  background: #000;
+  color: #fff;
+  width: 64px;
+  height: 64px;
+  font-size: 22px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 64px;
+  margin: 0 auto;
+}
+.offer {
+  margin-top: 280px;
+  text-align: center;
+}
+.title {
+  font-size: 29px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.might {
+  background: #000;
+  color: #fff;
+  padding: 92px 0 0 0;
+}
+.section_title {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+.item {
+  width: 187px;
+  height: 183px;
+  background: #fff;
+  border-radius: 20px;
+}
+.stack {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+.footer {
+  color: #fff;
+  background: #000;
+  font-size: 13px;
+}
+.credits {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
