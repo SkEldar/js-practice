@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  background: url("../img/background.jpg") no-repeat center top / cover;
+  padding-bottom: 230px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.navbar img {
+  width: 60px;
+  float: left;
+}
+.navbar {
+  padding-top: 20px;
+}
+nav {
+  float: right;
+  margin-top: 15px;
+}
+nav li {
+  display: inline-block;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  text-align: center;
+  width: 780px;
+  margin: 0 auto;
+  margin-top: 170px;
+}
+h1 {
+  font-size: 150px;
+  font-weight: normal;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  line-height: 140px;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 72px;
+  font-weight: normal;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.navbar_titles:after {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  content: "";
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.button {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  border: 3px solid #fff;
+  padding: 10px 30px;
+}
+.nav_button {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.about h4 {
+  color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.about h3 {
+  color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.titles {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 90px;
+}
+.titles:after {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: red;
+  content: "";
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.about p {
+  width: 936px;
+  color: #999999;
+  font-family: "Arial MT";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 102px;
+}
+.images {
+  width: 1200px;
+  height: 250px;
+  margin: 0 auto;
+  margin-right: 35px;
+  margin-bottom: 91px;
+}

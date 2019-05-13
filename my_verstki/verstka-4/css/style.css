@@ -22,10 +22,16 @@ body {
 .exit {
   padding-top: 225px;
 }
-.questions {
-  background-color: red;
-  width: 1170px;
-  height: 1170px;
-  margin: 0 170px;
-  position: absolute;
+
+.account {
+  display: flex;
+  padding-right: 250px;
+}
+.question {
+  width: 800px;
+  height: 100px;
+  color: #fff;
+  background: grey;
+  padding-left: 25px;
+  padding-top: 25px;
 }
