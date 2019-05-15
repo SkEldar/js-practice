@@ -1,4 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Top_Menu from "./components/Top_Menu";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+function Main() {
+  return (
+    <div>
+      <Top_Menu />
+    </div>
+  );
+}
+
+ReactDOM.render(<Main />, document.getElementById("root"));
