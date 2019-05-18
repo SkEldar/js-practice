@@ -4,18 +4,18 @@ function Top_Menu() {
   return (
     <div className="menu">
       <a href="#">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className="logo" />
       </a>
-      <input type="text" />
-      <ul>
+      <input type="text" className="search" />
+      <ul className="top-menu">
         <li>
-          <a href="#" />
+          <a href="#">Картинки нету</a>
         </li>
         <li>
-          <a href="#" />
+          <a href="#">Картинки нету</a>
         </li>
         <li>
-          <a href="#" />
+          <a href="#">Картинки нету</a>
         </li>
       </ul>
     </div>

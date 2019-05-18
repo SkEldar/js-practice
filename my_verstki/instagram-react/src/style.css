@@ -1,0 +1,49 @@
+.logo {
+  width: 140px;
+}
+.top-menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.top-menu a {
+  text-decoration: none;
+  color: #181617;
+  margin-right: 30px;
+}
+.menu {
+  margin: 0 auto;
+  width: 865px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.seacrh {
+  width: 200px;
+  height: 25px;
+}
+.Main_content {
+  background: red;
+  width: 545px;
+  height: 610px;
+  margin: 0 auto;
+}
+.profile {
+  width: 545px;
+  height: 60px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+}
+.profile a {
+  text-decoration: none;
+  color: #181617;
+  margin-right: 30px;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  margin-right: 415px;
+}
+.background {
+  width: 100%;
+  background: #fafafa;
+  padding-top: 50px;
+}
