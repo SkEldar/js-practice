@@ -1,10 +1,16 @@
 .logo {
   width: 140px;
+  padding-left: 200px;
+}
+body {
+  padding: 0;
+  margin: 0;
 }
 .top-menu {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
+  padding-right: 200px;
 }
 .top-menu a {
   text-decoration: none;
@@ -12,11 +18,12 @@
   margin-right: 30px;
 }
 .menu {
-  margin: 0 auto;
-  width: 865px;
+  width: 100%;
+  height: 65px;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  background: #fff;
 }
 .seacrh {
   width: 200px;
@@ -26,6 +33,7 @@
   width: 545px;
   height: 610px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .profile {
   width: 545px;
@@ -45,7 +53,6 @@
   width: 100%;
   height: 100%;
   background: #fafafa;
-  padding-top: 50px;
 }
 .img {
   background: url("./img/vietnam.jpg") center no-repeat / cover;
@@ -56,5 +63,15 @@
 }
 .logo-of-your-acc {
   width: 40px;
-  border-radius: ;
+  border-radius: 50%;
+}
+.nickname-account {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.nickname-account {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
 }

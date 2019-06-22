@@ -4,10 +4,10 @@ function New_img() {
 }
 function Main_content() {
   return (
-    <div className="background">
+    <div>
       <div className="Main_content">
         <div className="profile">
-          <a href="#">salakhutdinali</a>
+          <a href="#">kent.your</a>
           <a href="#">...</a>
           <div onClick={New_img} className="img">
             <img />

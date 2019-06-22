@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.prices {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #b6c9c9;
+}
+.prices h1,
+.rules_tickets h1,
+.discount h1 {
+  padding-top: 75px;
+  padding-bottom: 45px;
+  text-align: center;
+  color: #58575d;
+  text-transform: uppercase;
+}
+.description {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.service2 {
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.service {
+  width: 300px;
+  height: 200px;
+  background: white;
+  padding: 0;
+  border-radius: 10px;
+  color: #58575d;
+}
+.service p {
+  font-size: 24px;
+  margin: 15px;
+}
+.service4 {
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.top {
+  width: 300px;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  background: #f4d7ad;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+}
+.top h3,
+.name h3 {
+  text-transform: uppercase;
+  color: #bd855c;
+}
+.prices button {
+  width: 450px;
+  height: 75px;
+  background: #ba5252;
+  color: #fff;
+  font-size: 32px;
+  margin-top: 70px;
+  border-radius: 60px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.reviews {
+  width: 100%;
+  height: 100vh;
+  background: #b6c9c9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews h1 {
+  padding-top: 105px;
+  padding-bottom: 45px;
+  text-align: center;
+  color: #58575d;
+  text-transform: uppercase;
+}
+.review {
+  width: 300px;
+  height: 110px;
+  background: white;
+  padding: 0;
+  border-radius: 10px;
+  color: #58575d;
+}
+.columns {
+  width: 830px;
+  display: flex;
+  justify-content: space-between;
+}
+.column1,
+.column2 {
+  height: 530px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.name {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  background: #f4d7ad;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+}
+.review p {
+  font-size: 18px;
+  margin: 15px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.rules_tickets {
+  width: 100%;
+  height: 100vh;
+  background: #b6c9c9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rules_tickets h3,
+.discount h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #58575d;
+  text-transform: uppercase;
+}
+.rules_tickets p {
+  color: #606060;
+  font-size: 20px;
+}
+.rules-tickets {
+  width: 1058px;
+  height: 604px;
+  display: flex;
+  justify-content: space-between;
+}
+.tickets {
+  width: 377px;
+  height: 604px;
+}
+.tickets .choose_service {
+  width: 270px;
+  height: 55px;
+  background: #f4d7ad;
+  color: #bd855c;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.block {
+  background: #606060;
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+.blocks {
+  width: 285px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.blocks1 {
+  margin-top: 25px;
+}
+.blocks4 {
+  margin-bottom: 25px;
+}
+.buy_tickets {
+  width: 270px;
+  height: 55px;
+  background: #ba5252;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 17px;
+}
+.reserve {
+  margin-top: 15px;
+  width: 270px;
+  height: 55px;
+  background: #bd855c;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 17px;
+}
+.discount {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.discount1 {
+  width: 1130px;
+  height: 200px;
+  margin-bottom: 50px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sale {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #58575d;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.discount p {
+  font-size: 16px;
+  color: #606060;
+}
+.sale2 {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background: #58575d;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}

@@ -7,7 +7,7 @@ import Second_content from "./components/Second_content";
 
 function Main() {
   return (
-    <div>
+    <div className="background">
       <Top_Menu />
       <Main_content />
       <Second_content />
