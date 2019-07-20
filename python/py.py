@@ -1,33 +1,5 @@
-print("hello,i'm calculator from future ")
-print("What do you need? + or - or / or * ")
-some = input('your operation? ')
-if (some == "+"):
-    print('okay,say your numbers ')
-    # go_back = input('or go to main menu? ')
-    first = input('first number? ')
-    second = input('second number? ')
-    print("The result is ")
-    print(first + second)
-elif (some == "-"):
-    print('okay,say your numbers ')
-    # go_back = input('or go to main menu? ')
-    first = input('first number? ')
-    second = input('second number? ')
-    print("The result is ")
-    print(first - second)
-elif (some == '*'):
-    print('okay,say your numbers ')
-    # go_back = input('or go to main menu? ')
-    first = input('first number? ')
-    second = input('second number? ')
-    print("The result is ")
-    print(first * second)
-elif (some == '/'):
-    print('okay,say your numbers ')
-    # go_back = input('or go to main menu? ')
-    first = input('first number? ')
-    second = input('second number? ')
-    print("The result is ")
-    print(first + second)
-else:
-    print('eror')
+def Number(n):
+    d = 2
+    while n % d != 0:
+        d += 1
+        print(d == n)
