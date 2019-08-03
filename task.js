@@ -1,11 +1,9 @@
-var m = [1, 2, 3, 4, 5];
+let a = [];
 
-function DeleteDuplicate(array) {
-  var size = array.length;
-  console.log(size);
-  for (var i = 0; i < size; i++) {
-    console.log("work");
-  }
+for (let i = 0; i < 10; i++) {
+  let rand = Math.random();
+  a.push(rand);
 }
-
-DeleteDuplicate(m);
+for (let q = 0; q < a.length; q++) {
+  console.log(a[q]);
+}
