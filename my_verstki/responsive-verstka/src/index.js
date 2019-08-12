@@ -32,14 +32,18 @@ class Main extends Component {
                 Quickly build an effective pricing table for your potential
                 customers with this
               </p>
-              <br />
+
               <p>
-                {" "}
                 Bootstrap example. It's built with default Bootstrap components
                 and utilities
               </p>
-              <br />
+
               <p> with little customization.</p>
+            </div>
+            <div className="Prices">
+              <div className="Price" />
+              <div className="Price" />
+              <div className="Price" />
             </div>
           </div>
         </div>

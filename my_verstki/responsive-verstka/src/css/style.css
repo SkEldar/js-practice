@@ -11,6 +11,7 @@
   font-weight: 200;
   font-size: 20px;
   color: #212529;
+  margin-left: 2%;
 }
 .Sign_up {
   border-color: #167af6;
@@ -36,6 +37,7 @@ li {
   text-decoration: none;
   list-style-type: none;
   color: #343a40;
+  font-size: 16px;
 }
 .container {
   width: 1140px;
@@ -48,10 +50,24 @@ li {
 }
 .text p {
   color: #212529;
+  font-size: 19px;
+  font-weight: 200;
 }
 .text {
   width: 640px;
   height: 160px;
   text-align: center;
   margin: 0 auto;
+}
+.Prices {
+  width: 930px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  margin: auto;
+}
+.Price {
+  width: 295px;
+  height: 320px;
+  border: 2px solid #d8d8d8;
 }
