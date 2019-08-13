@@ -41,9 +41,32 @@ class Main extends Component {
               <p> with little customization.</p>
             </div>
             <div className="Prices">
-              <div className="Price" />
-              <div className="Price" />
-              <div className="Price" />
+              <div className="Price">
+                <div className="header">
+                  <p>Free</p>
+                </div>
+                <div className="about">
+                  <h1>$0 / mo</h1>
+                </div>
+              </div>
+              <div className="Price">
+                <div className="header">
+                  <p>Pro / mo</p>
+                </div>
+                <div className="about">
+                  <h1>$15 / mo</h1>
+                </div>
+              </div>
+              <div className="Price">
+                <div className="header">
+                  <p>Enterprise</p>
+                </div>
+                <div className="about">
+                  <h1>$29</h1>
+                  <h2>/</h2>
+                  <h3>mo</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
