@@ -62,9 +62,7 @@ class Main extends Component {
                   <p>Enterprise</p>
                 </div>
                 <div className="about">
-                  <h1>$29</h1>
-                  <h2>/</h2>
-                  <h3>mo</h3>
+                  <h1>$29</h1>/
                 </div>
               </div>
             </div>

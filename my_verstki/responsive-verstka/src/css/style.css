@@ -31,6 +31,7 @@
   display: flex;
   justify-content: space-between;
   margin-left: 55%;
+  margin-right: 15px;
 }
 .menu a,
 li {
@@ -79,7 +80,7 @@ li {
   height: 165px;
   background: red;
 }
-.header {
+/* .header {
   background: #f7f7f7;
   width: 100%;
   display: flex;
@@ -88,4 +89,18 @@ li {
   color: #212529;
   font-size: 23px;
   font-weight: 200;
+} */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .menu {
+    width: 710px;
+    background: red;
+    display: flex;
+    margin-right: 25px;
+    align-items: center;
+    padding-right: 450px;
+  }
+  .menu li,
+  a {
+    margin-right: 25px;
+  }
 }
