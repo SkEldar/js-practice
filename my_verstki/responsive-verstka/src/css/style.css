@@ -95,9 +95,8 @@ li {
     width: 710px;
     background: red;
     display: flex;
-    margin-right: 25px;
+
     align-items: center;
-    padding-right: 450px;
   }
   .menu li,
   a {
