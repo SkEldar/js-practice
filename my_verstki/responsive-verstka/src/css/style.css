@@ -1,105 +1,61 @@
-* {
-  font-family: Arial, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }
-.header {
-  display: flex;
+header {
   width: 100%;
-  justify-content: space-between;
-  border-bottom: solid 2px #f5f5f5;
-}
-.header h3 {
-  font-weight: 200;
-  font-size: 20px;
-  color: #212529;
-  margin-left: 2%;
-}
-.Sign_up {
-  border-color: #167af6;
-  color: #167af6;
-  width: 80px;
-  height: 40px;
-  font-size: 18px;
-  border-radius: 5px;
-  font-weight: 200;
-}
-.Sign_up:hover {
-  color: white;
-  background: #167af6;
-}
-.menu {
-  width: 310px;
+  height: 50px;
+  background: #fff;
+  color: #ffffff;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
   display: flex;
   justify-content: space-between;
-  margin-left: 55%;
-  margin-right: 15px;
+  align-items: center;
 }
-.menu a,
-li {
-  text-decoration: none;
-  list-style-type: none;
+
+header a {
   color: #343a40;
+  text-decoration: none;
+  text-transform: uppercase;
   font-size: 16px;
 }
-.container {
-  width: 1140px;
-  margin: 0 auto;
-}
-.Main_content h1 {
-  font-size: 42px;
-  font-weight: 100;
-  text-align: center;
-}
-.text p {
-  color: #212529;
-  font-size: 19px;
-  font-weight: 200;
-}
-.text {
-  width: 640px;
-  height: 160px;
-  text-align: center;
-  margin: 0 auto;
-}
-.Prices {
-  width: 930px;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 5%;
-  margin: auto;
-}
-.Price {
-  width: 295px;
-  height: 320px;
-  border: 2px solid #d8d8d8;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.about {
-  width: 165px;
-  height: 165px;
-  background: red;
-}
-/* .header {
-  background: #f7f7f7;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #212529;
-  font-size: 23px;
-  font-weight: 200;
-} */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  .menu {
-    width: 710px;
-    background: red;
-    display: flex;
 
-    align-items: center;
+header h3 {
+  font-weight: 400;
+  color: black;
+  margin-left: 15px;
+}
+.Sign_up {
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #007bff;
+  text-align: center;
+  font-weight: 400;
+  margin-right: 15px;
+  width: 55px;
+  height: 45px;
+}
+.Sign_up:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 550px) and (max-width: 800px) {
+  body {
+    background: red;
   }
-  .menu li,
-  a {
-    margin-right: 25px;
+  ul li {
+    margin: 3px;
+  }
+  ul li:last-child {
+    margin-left: 10px;
   }
 }
