@@ -48,14 +48,58 @@ header li {
   padding: 0 20px 0 20px;
   margin-bottom: 25px;
 }
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.main_content {
+  width: 100%;
+  font-weight: 400;
+}
+.text {
+  text-align: center;
+}
+.text h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: inherit;
+  color: inherit;
+}
+.text p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.block {
+  width: 220px;
+  height: 300px;
+}
+.blocks {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 45px;
+}
+.block-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+  border-bottom: grey 3px solid;
+}
 @media screen and (min-width: 550px) and (max-width: 800px) {
-  body {
-    background: red;
-  }
   ul li {
     margin: 3px;
   }
   ul li:last-child {
     margin-left: 10px;
+  }
+  .blocks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 175px;
   }
 }
