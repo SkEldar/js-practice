@@ -88,7 +88,21 @@ header li {
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   text-align: center;
-  border-bottom: grey 3px solid;
+  border-bottom: rgba(0, 0, 0, 0.125) 3px solid;
+  font-size: 20px;
+}
+.block-header h4 {
+  font-weight: 300;
+}
+.block-body small {
+  color: #6c757d;
+}
+.block-body h1 {
+  margin-bottom: 0.75rem;
+}
+.block-body small,
+h1 {
+  text-align: center;
 }
 @media screen and (min-width: 550px) and (max-width: 800px) {
   ul li {
@@ -101,5 +115,10 @@ header li {
     display: flex;
     flex-direction: column;
     margin-left: 175px;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 700) {
+  body {
+    background: red;
   }
 }

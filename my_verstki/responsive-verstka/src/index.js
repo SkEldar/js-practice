@@ -45,15 +45,27 @@ class Main extends Component {
                 <div className="block-header">
                   <h4>Free</h4>
                 </div>
+                <div className="block-body">
+                  <h1>$0</h1>
+                  <small>/ mo</small>
+                </div>
               </div>
               <div className="block">
                 <div className="block-header">
                   <h4>Pro</h4>
                 </div>
+                <div className="block-body">
+                  <h1>$15</h1>
+                  <small>/ mo</small>
+                </div>
               </div>
               <div className="block">
                 <div className="block-header">
                   <h4>Enterprise</h4>
+                </div>
+                <div className="block-body">
+                  <h1>$29</h1>
+                  <small>/ mo</small>
                 </div>
               </div>
             </div>
