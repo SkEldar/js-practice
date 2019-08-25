@@ -6,4 +6,4 @@ setTimeout(() => {
 }, 5000);
 let rock = "rock";
 let paper = "paper";
-let sizer = "sizer";
+let sizer = "scissors";
