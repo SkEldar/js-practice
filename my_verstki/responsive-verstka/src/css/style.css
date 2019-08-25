@@ -114,7 +114,8 @@ h1 {
   .blocks {
     display: flex;
     flex-direction: column;
-    margin-left: 175px;
+    /* margin-left: 175px; */
+    align-items: center;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 700) {
