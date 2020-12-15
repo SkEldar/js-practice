@@ -1,0 +1,58 @@
+.text {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    font-size:21px;
+}
+.fruits {
+    margin-top:39px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.nums {
+    width: 725px;
+    height:80px;
+ margin:0 auto;
+    margin-top:64px;
+    font-size: 21px;
+}
+.inp1{
+    margin-right: 65px;
+    /* Style for "Прямоуголь" */
+width: 83px;
+height: 80px;
+border-radius: 15px;
+background-color: #c8d7d6;
+}
+.inp2 {
+    margin-right: 65px;
+    /* Style for "Прямоуголь" */
+width: 83px;
+height: 80px;
+border-radius: 15px;
+background-color: #c8d7d6;
+}
+.inp3 {
+    /* Style for "Прямоуголь" */
+width: 83px;
+height: 80px;
+border-radius: 15px;
+background-color: #c8d7d6;
+}
+.inp4 {
+    width: 83px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #c8d7d6;
+    margin-top:45px;
+} 
+p {
+    font-size: 21px;
+}
+.ls {
+    margin-left:105px;
+    font-size: 21px;
+}

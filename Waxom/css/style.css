@@ -1,0 +1,44 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background: grey;
+}
+.wrapper {
+	width: 700px;
+
+}
+ .wp {
+	background:red;
+}
+.wr {
+background: #827193
+}
+.wf{
+background: #748572
+}
+.fd{
+background: #124638
+}
+.da{
+background: #028473
+}
+.lk{
+background: #728487
+}
+.nm{
+background: #635627
+}
+.jk{
+background: grey;
+}
+.op {
+background:green;
+}
+.l {
+	background: blue;
+}
+.wrapper div {
+	width:700px;
+}

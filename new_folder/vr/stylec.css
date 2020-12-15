@@ -1,0 +1,42 @@
+.text p {
+    /* Style for "Задание 1" */
+color: #2b2b2b;
+font-size: 28px;
+font-weight: 400;
+line-height: 27px;
+}
+.nums p {
+    color: #2b2b2b;
+font-size: 28px;
+font-weight: 400;
+line-height: 27px;
+}
+.nums input {
+    /* Style for "Прямоуголь" */
+width: 96px;
+height: 92px;
+border-radius: 15px;
+background-color: #cccccc;
+}
+.nums {
+    margin-left:90px;
+}
+.nums h1 {
+    /* Style for "1" */
+color: #2b2b2b;
+font-size: 108px;
+font-weight: 400;
+line-height: 21.39px;
+}
+.baloons p {
+    color: #2b2b2b;
+font-size: 28px;
+font-weight: 400;
+line-height: 27px;
+}
+.baloons input {
+    width: 96px;
+height: 92px;
+border-radius: 15px;
+background-color: #cccccc;
+}

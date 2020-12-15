@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src:url(../fonts/MyradPro.otf);
+}
+@font-face {
+    font-family: "GothamPR";
+    src:url(../fonts/GothamProRegular.ttf);
+}
+@font-face {
+    font-family: "GothamPL";
+    src:url(../fonts/GothamProLight.ttf);
+}
+@font-face {
+    font-family: "Roboto - Bold Condensed";
+    src:url(../fonts/Roboto.ttf);
+}
+@font-face {
+	font-family: GothamBook;
+	src:url(../fonts/GothamBook.ttf);
+}

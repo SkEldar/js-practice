@@ -1,21 +1,19 @@
-let start = [];
-let end = [];
-for (let i = 0; i < 10; i++) {
-  let c = Math.floor(Math.random() * 10);
-  start.push(c);
-}
-console.log(start);
-let max = 0;
-for (let l = 0; l < start.length; l++) {
-  if (start[l] > max) {
-    max = start[l];
+function connexion() {
+  var username = prompt("Username :", "");
+  var password = prompt("Password :", "");
+  var TheLists = ["GOD:HIDDEN"];
+  for (i = 0; i < TheLists.length; i++) {
+    if (TheLists[i].indexOf(username) == 0) {
+      var TheSplit = TheLists[i].split(":");
+      var TheUsername = TheSplit[0];
+      var ThePassword = TheSplit[1];
+      if (username == TheUsername && password == ThePassword) {
+        console.log(
+          "Vous pouvez utiliser ce mot de passe pour valider ce challenge (en majuscules) / You can use this password to validate this challenge (uppercase)"
+        );
+      }
+    } else {
+      console.log("Nope, you're a naughty hacker.");
+    }
   }
-  max = 0;
-  n = max;
-  if (start[l] > max && start[l] < n) {
-    max = start[l];
-  }
 }
-end.push(max);
-
-console.log(end);

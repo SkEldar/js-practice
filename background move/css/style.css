@@ -1,0 +1,9 @@
+* {
+	margin:0;
+	padding:0; 
+}
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	background:url(../../Waxom/img/sl10.jpg) no-repeat center/calc(100% + 50px);
+}

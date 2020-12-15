@@ -1,0 +1,332 @@
+.block1 {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    background:url(../img/dub2.jpg) no-repeat top/cover;
+}
+header {
+    width: 100%;
+    height: 115px;
+    border-bottom:1px solid grey;
+}
+.container {
+    width: 1176px;
+    margin: 0 auto;
+}
+.pc_menu {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pc_menu li {
+/* Style for "Home" */
+color: #ffffff;
+font-family: "Myriad Pro";
+font-size: 20px;
+font-weight: 400;
+/* Text style for "," */
+border-bottom:6px solid rgba(0,0,0,0);
+margin-top:45px;
+padding-bottom:43px;
+transition: 0.3;
+}
+.pc_menu li:hover {
+    border-color:#11749e;
+}
+.socials {
+    width: 140px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 115px;
+}
+.create {
+color: #f5f5f5;
+font-family: "GothamPR";
+font-size: 103px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "Creatives" */
+letter-spacing: -1.92px;
+text-align: center;
+margin-top:20vh;
+}
+.power {
+    /* Style for "Power by P" */
+color: #11749e;
+font-family: "GothamPL";
+font-size: 25px;
+font-weight: 500;
+line-height: 51.19px;
+text-transform: uppercase;
+/* Text style for "Power by P" */
+letter-spacing: 7.88px;
+text-align: center;
+}
+.scroll {
+    /* Style for "Ellipse 2" */
+width: 65px;
+height: 65px;
+border: 1px solid #ffffff;
+background:none;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 35px;
+left: 48%;
+}
+.block2 {
+    /* Style for "Rectangle" */
+width: 100%;
+background-color: #11749e;
+display: flex;
+flex-direction: column;
+}
+ .block2 .container .back {
+    /* Style for "W" */
+opacity: 0.18;
+color: #ffffff;
+font-family: "Roboto - Bold Condensed";
+font-size: 247px;
+font-weight: 400;
+line-height: 210.64px;
+text-transform: uppercase;
+position: absolute;
+
+}
+ .block2 .container p {
+    /* Style for "We Are An" */
+color: #ffffff;
+font-family: Gotham;
+font-size: 38px;
+font-weight: 500;
+line-height: 45.06px;
+text-transform: uppercase;
+
+}
+.abs1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130px;
+}
+.fs  {
+   width: 100%;
+    display: flex;
+        justify-content: space-between;
+        margin-top: 150px;;
+}
+.navs .cir {
+    /* Style for "Ellipse 1" */
+    width: 133px;
+    height: 133px;
+background-color: #2e85aa;
+border-radius:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.ty{
+    width: 258px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left_top,.right_top,.left_bottom,.right_bottom {
+width: 50%;
+height: 50%;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.left_top {
+    background: #222222;
+}
+.in_right {
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    background: url(../img/Layer_88.png) no-repeat center/cover;
+}
+.in_left{
+
+     transition: 0.5s;
+     width: 100%;
+    height: 100%;
+    background: url(../img/Layer_90.png) no-repeat center/cover;
+}
+.in_right:hover,.in_left:hover{
+    transform: scale(1.2);
+}
+.right_bottom{
+    background: #f3f3f3;
+}
+.art1,.art2 {
+    width: 470px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* Style for "Cum sociis" */
+}
+.art1 span {
+    /* Style for "Cum sociis" */
+color: #ffffff;
+font-family: GothamBook;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+}
+.art1 h1 {
+    /* Style for "Akita Inu" */
+color: #ffffff;
+font-family: "GothamPL";
+font-size: 25px;
+font-weight: 500;
+line-height: 36px;
+text-transform: uppercase;
+margin-bottom: 43px;
+margin-top:18px;
+}
+.art1 p  {
+/* Style for "Cum sociis" */
+/* Style for "Cum sociis" */
+width: 469px;
+height: 158px;
+color: #ffffff;
+font-family: GothamBook;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+}
+.art2{
+    color: #000 !important;
+}
+.art2 span {
+    /* Style for "Cum sociis" */
+color: #000 !important;
+font-family: GothamBook;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+}
+.art2 h1 {
+    /* Style for "Akita Inu" */
+color: #000 !important;
+font-family: "GothamPL";
+font-size: 25px;
+font-weight: 500;
+line-height: 36px;
+text-transform: uppercase;
+margin-bottom: 43px;
+margin-top:18px;
+}
+.art2 p  {
+/* Style for "Cum sociis" */
+/* Style for "Cum sociis" */
+
+color: #000 !important;
+font-family: GothamBook;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.block3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lets {
+color: #222222;
+font-family: Gotham;
+font-size: 38px;
+font-weight: 500;
+line-height: 45.06px;
+text-transform: uppercase;
+}
+.letsb {
+    /* Style for "B" */
+opacity: 0.18;
+color: #222222;
+font-family: "Roboto - Bold Condensed";
+font-size: 247px;
+font-weight: 400;
+line-height: 210.64px;
+text-transform: uppercase;
+position: absolute;
+}
+.abs2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130px;
+}
+.we {
+    /* Style for "We love cl" */
+color: #222222;
+font-family: Gotham Book;
+font-size: 30px;
+font-weight: 400;
+line-height: 37px;
+margin-top:85px;
+margin-left: 250px;
+}
+.images {
+    width: 1170px;
+    height: 500px;
+    margin-top: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.images h1 {
+    /* Style for "Fresh Summ" */
+color: #11749e;
+font-family: Gotham;
+font-size: 18px;
+font-weight: 500;
+line-height: 36px;
+text-transform: uppercase;
+}
+.images p {
+    /* Style for "Cum sociis" */
+color: #222222;
+font-family: "Gotham - Book";
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

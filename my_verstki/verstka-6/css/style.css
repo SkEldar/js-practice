@@ -57,6 +57,7 @@ h2 {
   color: #fff;
   font-family: Arial, sans-serif;
 }
+
 .navbar_titles:after {
   display: block;
   width: 60px;
@@ -80,6 +81,12 @@ h2 {
   text-align: center;
   margin-top: 50px;
 }
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 .about h4 {
   color: #333333;
   font-family: Arial, sans-serif;
@@ -93,11 +100,13 @@ h2 {
   font-weight: 400;
   text-transform: uppercase;
 }
-.titles {
+.titles,
+.with {
   margin: 0 auto;
   text-align: center;
   margin-top: 90px;
 }
+.with,
 .titles:after {
   display: block;
   width: 60px;
@@ -120,6 +129,10 @@ h2 {
   margin-bottom: 102px;
 }
 .images {
+  display: flex;
+  margin-right: 50px;
+  padding-right: 250px;
+  justify-content: space-between;
   width: 1200px;
   height: 250px;
   margin: 0 auto;

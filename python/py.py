@@ -1,5 +1,14 @@
-def Number(n):
-    d = 2
-    while n % d != 0:
-        d += 1
-        print(d == n)
+#1
+# a = input().split(',')
+# print(a)
+#2
+# a = input().split(''')
+# print(a)
+#3
+# a = input().split(''')
+# print(a)
+#4
+# a = input().split(',')
+# print(a)
+# a = input().split('==')
+# print(a)

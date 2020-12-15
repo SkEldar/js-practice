@@ -1,0 +1,9 @@
+const readlineSync = require("readline-sync");
+let rent = readlineSync.question("Rent or mortgage payment? ");
+let phone = readlineSync.question("Phone? ");
+let utilities = readlineSync.question("Utilities? ");
+let cable = readlineSync.question("Cable? ");
+let totalMonth = parseInt(rent + phone + utilities + cable);
+let totalYear = Number(totalMonth * 12);
+console.log("Total cost of month = " + totalMonth);
+console.log("Total cost of year = " + totalYear);

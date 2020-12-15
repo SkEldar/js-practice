@@ -1,0 +1,70 @@
+.text p {
+    /* Style for "Задание 1" */
+color: #000000;
+font-size: 28px;
+font-weight: 400;
+line-height: 27px;
+}
+.text  {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.answer p {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.answer input {
+    /* Style for "Прямоуголь" */
+width: 83px;
+height: 80px;
+border-radius: 15px;
+background-color: #c8d7d6;
+} 
+.time {
+    width: 586px;
+    height: 316px;
+    justify-content: center;
+}
+#watch {
+    margin-left:130px;
+}
+.answer {
+    width: 166px;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    margin-left:360px;
+}
+.ships p {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.ships {
+    margin-left:91px;
+}
+.answer2 input  {
+    width: 83px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #c8d7d6;
+}
+.answer2 p {
+    color: #000000;
+font-size: 28px;
+font-weight: 400;
+line-height: 27px;
+}
+.answer2 {
+    width: 166px;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    margin-bottom:100px;
+    margin-left:655px;
+}
