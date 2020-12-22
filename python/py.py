@@ -1,14 +1,21 @@
-#1
-# a = input().split(',')
-# print(a)
-#2
-# a = input().split(''')
-# print(a)
-#3
-# a = input().split(''')
-# print(a)
-#4
-# a = input().split(',')
-# print(a)
-# a = input().split('==')
-# print(a)
+while True:
+    what = input("выбери действие: ")
+    a = float(input())
+    b = float(input())
+
+    if what == "+":
+        c = a+b
+        print(c)
+    elif what == "-":
+        c = a-b
+        print(c)
+    elif what == "*":
+        c = a*b
+        print(c)
+    elif what == "/":
+        c = a/b
+        print(c)
+    elif what == "exit":
+       break
+    else:
+        print("error")
